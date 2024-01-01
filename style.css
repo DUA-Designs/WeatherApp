@@ -1,20 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Catamaran:wght@500&family=Nunito:wght@300&family=Roboto+Slab&family=Roboto:ital,wght@1,500&display=swap');
 *{
     font-size: 14px;
-   
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
- 
-  
     transition: all 0.3s;
 
 }
 #container{
     height: 100vh;
     background-color:#ebebeb;
-   
-  
     display: grid;
     align-items: center;
  
@@ -33,8 +28,6 @@
 #box{
     width: 80%;
     margin: 0 auto;
-  
-  
     height: 80vh;
  
 
@@ -44,42 +37,32 @@
     font-size: 10px;
  }
  #deg sup{
-    
     font-size: 10px;
  }
  #flex-box{
     padding: 1rem;
-   
-   transform-origin: top;
-   transform: scaleY(0);
-   background-color:#fff;
-  
-
-
- }
+    transform-origin: top;
+    transform: scaleY(0);
+    background-color:#fff;
+  }
  #flex-box.collapse{
     transform: scaleY(1);
     transition:  0.5s ease;
-
- }
+}
  #flex-box-childs{
     padding: 1rem;
-
     width: 50%;
  }
  #two-boxes{
     display: flex;
-   
-
- }
+   }
  #two-boxes div{
     width: 50%;
-   
- }
+   }
  #box1{
     display: grid;
-justify-content: end;
-font-size: 2rem;
+    justify-content: end;
+    font-size: 2rem;
  
  }
  #box1 img{
@@ -97,7 +80,6 @@ font-size: 2rem;
  }
  #more{
     text-align: end;
-   
     cursor: pointer;
     font-weight: 600;
 
