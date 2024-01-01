@@ -22,6 +22,7 @@
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 2rem;
  
 
 }
@@ -86,12 +87,38 @@
  }
  @media  screen and (max-width:760px) {
     *{
-        font-size: 6px;
+        font-size: 8px;
     }
+    #accuweather{
+      font-size: 1.2rem;
+    }
+    #flex-box{
+      padding: 0.3rem;
+    }
+    #flex-box-childs{
+      padding: 0.5rem;
+    
     #box1 img{
         width: 40px;
         height: 40px;
      }
+     #box{
+      width: 90%;
+      height: fit-content;
+      
+   
+  
+  }
+  #deg sub{
+ 
+   font-size: 4px;
+}
+#deg sup{
+   font-size: 6px;
+}
+#o{
+   font-size: 6px;
+}
     
  }
  
