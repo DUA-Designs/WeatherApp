@@ -49,10 +49,11 @@
  }
  #flex-box{
     padding: 1rem;
-    display: flex;
+   
    transform-origin: top;
    transform: scaleY(0);
    background-color:#fff;
+  
 
 
  }
@@ -90,12 +91,13 @@ font-size: 2rem;
     font-size: 3rem;
  }
  #flex-box-childs:nth-child(2) p{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(202, 195, 195);
     padding: 0.5rem;
+    display: flex;justify-content: space-between;
  }
  #more{
     text-align: end;
-    margin: 0.5rem;
+   
     cursor: pointer;
     font-weight: 600;
 
