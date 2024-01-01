@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Catamaran:wght@500&family=Nunito:wght@300&family=Roboto+Slab&family=Roboto:ital,wght@1,500&display=swap');
+*{
+    font-size: 14px;
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ 
+  
+    transition: all 0.3s;
+
+}
+#container{
+    height: 100vh;
+    background-color:#ebebeb;
+   
+  
+    display: grid;
+    align-items: center;
+ 
+ 
+}
+#accuweather{
+    background-color: burlywood;
+    padding: 2vw;
+    box-shadow: 0 0 5px 3px rgb(145, 144, 144);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+
+}
+#box{
+    width: 80%;
+    margin: 0 auto;
+  
+  
+    height: 80vh;
+ 
+
+}
+ #deg sub{
+    font-weight: 100;
+    font-size: 10px;
+ }
+ #deg sup{
+    
+    font-size: 10px;
+ }
+ #flex-box{
+    padding: 1rem;
+    display: flex;
+   transform-origin: top;
+   transform: scaleY(0);
+   background-color:#fff;
+
+
+ }
+ #flex-box.collapse{
+    transform: scaleY(1);
+    transition:  0.5s ease;
+
+ }
+ #flex-box-childs{
+    padding: 1rem;
+
+    width: 50%;
+ }
+ #two-boxes{
+    display: flex;
+   
+
+ }
+ #two-boxes div{
+    width: 50%;
+   
+ }
+ #box1{
+    display: grid;
+justify-content: end;
+font-size: 2rem;
+ 
+ }
+ #box1 img{
+    width: 100px;
+    height: 100px;
+ }
+ 
+ #box2 h1{
+    font-size: 3rem;
+ }
+ #flex-box-childs:nth-child(2) p{
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+ }
+ #more{
+    text-align: end;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+
+ }
+ @media  screen and (max-width:760px) {
+    *{
+        font-size: 10px;
+    }
+    #box1 img{
+        width: 70px;
+        height: 70px;
+     }
+    
+ }
+ 
+ 
